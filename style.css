@@ -27,3 +27,48 @@ p {
       background-color: rgb(122, 122, 122);
       text-decoration: underline;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #c8e4f7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+ .card h2 {
+    font-size: 18px;
+    margin: 10px 0; 
+ }
+
+ .card p {
+    font-size: 14px;
+    color: black;
+ }    
+ 
+ .card button {
+    background-color: rgb(24, 24, 124);
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+ }
+ .card button:hover {
+    background-color: rgb(44, 44, 172);
+ }
